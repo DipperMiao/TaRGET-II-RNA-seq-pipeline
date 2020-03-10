@@ -1,8 +1,8 @@
 # TaRGET-II-RNA-seq-pipeline
 
-## Overview
+### Overview
 The TaRGET II RNA-seq pipeline is designed for standardized data processing of mouse RNA-seq samples. It incorporates automatic quality control, generates user friendly files for computational analysis and outputs genome browser tracks for data visualization. To ensure consistent and reproducible data processing, the entire workflow, associated software and libraries are built into a singularity image, which can be run on computational clusters with job submission as well as on stand-alone machines. Pipeline installation requires minimal user input. All the software and genome references used for TaRGET II RNA-seq data processing are included in the pipeline image. The pipeline supports both single- and paired-end data, it accepts FASTQ files, performs alignments, gene features summary and data visualization. 
-## Software Used in the Pipeline
+### Software Used in the Pipeline
 
 **cutadapt (v1.16)** was used to find and remove adapter sequence, and other types of unwanted sequence from high-throughput sequencing reads.
 
@@ -18,7 +18,7 @@ The TaRGET II RNA-seq pipeline is designed for standardized data processing of m
 
 **samtools (v1.9)** and bedtools (v2.29) were used to manipulate the sequence alignments and genome features.
 
-## Genomic References Used in the Pipeline 
+### Genomic References Used in the Pipeline 
 
 The following mouse genome and gene references were built into the singularity image and used for TaRGET RNA-seq data processing:
 1)	STAR indexes of mouse genome (mm10).
