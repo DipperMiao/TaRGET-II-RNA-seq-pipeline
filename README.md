@@ -16,7 +16,7 @@ The TaRGET II RNA-seq pipeline is designed for standardized data processing of m
 
 **RSEM (v1.3.0)** was used to estimate gene and isoform expression levels from RNA-Seq data.
 
-**samtools (v1.9)** and bedtools (v2.29) were used to manipulate the sequence alignments and genome features.
+**samtools (v1.9)** and **bedtools (v2.29)** were used to manipulate the sequence alignments and genome features.
 
 ### Genomic References Used in the Pipeline 
 
